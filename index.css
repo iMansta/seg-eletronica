@@ -51,6 +51,7 @@ main{
   color: white;
   text-align: center;
   padding: 10%;
+  font-size: 20px;
 }
 .destaques {
   background-color: red;
@@ -64,6 +65,7 @@ main{
   color:white;
   text-align: center;
   font-size: 60px;
+  font-style: oblique;
 }
 .container {
   height: 100vh;
@@ -141,11 +143,11 @@ main{
   opacity: 1;
 }
 .card2 {
-  background: url("https://revistadigitalsecurity.com.br/wp-content/uploads/2019/10/New-Hikvision-logo-1024x724.jpg") center center no-repeat;
+  background: url("https://againstalacoes.com.br/image/cache/data/produtos/dvr-stand-alone/166-800x800.jpg") center center no-repeat;
   background-size: 300px;
 }
 .card2:hover {
-  background: url("https://revistadigitalsecurity.com.br/wp-content/uploads/2019/10/New-Hikvision-logo-1024x724.jpg") left center no-repeat;
+  background: url("https://againstalacoes.com.br/image/cache/data/produtos/dvr-stand-alone/166-800x800.jpg") left center no-repeat;
   background-size: 600px;
 }
 .card2:hover h2 {
