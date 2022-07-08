@@ -1,0 +1,204 @@
+* {
+  margin: 0;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+header  {
+  background-color: rgb(255, 255, 255);
+  grid-area: header;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 8px;
+}
+.styletop {
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  height: 10px;
+}
+
+main{
+  background-color: #000;
+}
+.submenu {
+  display:flex;
+}
+.submenu  p {
+  font-size: 25px;
+  padding: 15px;
+}
+.submenu a svg{
+  background-color:green;
+  border-radius: 30px;
+  width: 35px;
+  height: 30px;
+}
+.bannerp {
+  background-color: #000;
+}
+.bannerp img{
+  width: 100%;
+  height: auto;
+}
+.barmenu {
+  background-color: red;
+  display: flex;
+  width: 100%;
+  height: 60px;
+  justify-content: center;
+  align-items: center;
+}
+.barmenu p {
+  color: white;
+  text-align: center;
+  padding: 10%;
+}
+.destaques {
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+}
+.destaques p {
+  color:white;
+  text-align: center;
+  font-size: 60px;
+}
+.container {
+  height: 100vh;
+  width: 100vw;
+  max-height: 800px;
+  max-width: 100%;
+  min-height: 600px;
+  min-width: 1000px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+  background-color: #000;
+}
+.container img{
+  display: flex;
+  width: 100%;
+  height: 600px;
+  
+}
+.border {
+  height: 369px;
+  width: 290px;
+  background: transparent;
+  border-radius: 10px;
+  transition: border 1s;
+  position: relative;
+}
+.border:hover {
+  border: 1px solid #fff;
+}
+
+.card {
+  height: 379px;
+  width: 300px;
+  background: #808080;
+  border-radius: 10px;
+  transition: background 0.8s;
+  overflow: hidden;
+  background: #000;
+  box-shadow: 0 70px 63px -60px #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.card0 {
+  background: url("https://www.cctv-outlet.com/wp-content/uploads/2021/08/hikvision-colorvu-ip-camera.webp") center center no-repeat;
+  background-size: 300px;
+}
+.card0:hover {
+  background: url("https://www.cctv-outlet.com/wp-content/uploads/2021/08/hikvision-colorvu-ip-camera.webp") left center no-repeat;
+  background-size: 600px;
+}
+.card0:hover h2 {
+  opacity: 1;
+  color:black;
+}
+.card0:hover .fa {
+  opacity: 1;
+}
+.card1 {
+  background: url("https://images.kabum.com.br/produtos/fotos/sync_mirakl/220804/C-mera-De-Seguran-a-Inteligente-Hikvision-Speed-Dome-2mp-Fhd-4-8mm-120mm-25x-DS-2DE5225IW-AE_1631811312_gg.jpg") center center no-repeat;
+  background-size: 300px;
+}
+.card1:hover {
+  background: url("https://images.kabum.com.br/produtos/fotos/sync_mirakl/220804/C-mera-De-Seguran-a-Inteligente-Hikvision-Speed-Dome-2mp-Fhd-4-8mm-120mm-25x-DS-2DE5225IW-AE_1631811312_gg.jpg") left center no-repeat;
+  background-size: 600px;
+}
+.card1:hover h2 {
+  opacity: 1;
+  color: black;
+}
+.card1:hover .fa {
+  opacity: 1;
+}
+.card2 {
+  background: url("https://revistadigitalsecurity.com.br/wp-content/uploads/2019/10/New-Hikvision-logo-1024x724.jpg") center center no-repeat;
+  background-size: 300px;
+}
+.card2:hover {
+  background: url("https://revistadigitalsecurity.com.br/wp-content/uploads/2019/10/New-Hikvision-logo-1024x724.jpg") left center no-repeat;
+  background-size: 600px;
+}
+.card2:hover h2 {
+  opacity: 1;
+  color: black;
+}
+.card2:hover .fa {
+  opacity: 1;
+}
+h2 {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #fff;
+  margin: 20px;
+  opacity: 0;
+  transition: opacity 1s;
+}
+.fa {
+  opacity: 0;
+  transition: opacity 1s;
+}
+.icons {
+  position: absolute;
+  fill: rgb(255, 255, 255);
+  color: #fff;
+  height: 130px;
+  top: 226px;
+  width: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+footer {
+  background-color: red;
+  display: flex;
+  width: 100%;
+  height: 100px;
+  justify-content:center;
+  align-items:center;
+}
+footer p{
+  color: white;
+  font-size: 30px;
+  text-align: center;
+}
+.searchbar {
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#search-bar {
+  width: 640px;
+  height: 40px;
+  border: 3px solid grey;
+}
